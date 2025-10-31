@@ -52,4 +52,4 @@ public class ApiTests {
         PetProduct responsePet = response.as(PetProduct.class);
         Assert.assertEquals(responsePet.name, petProduct.name);
     }
-} // update for PR
+} // update for PR#1
